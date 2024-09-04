@@ -20,7 +20,7 @@ jobs:
           node-version: 21.5
 
       - name: Install dependencies
-        run: pnpm install
+        uses: pnpm/action-setup@v4
 
       - name: Build project
         run: pnpm run build
