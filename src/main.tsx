@@ -12,7 +12,7 @@ import Dashboard from "./routes/Dashboard";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/escale-app/",
     element: <Root />,
     errorElement: <div>error</div>,
     children: [
