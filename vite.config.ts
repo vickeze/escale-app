@@ -5,7 +5,6 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [react(), svgr()],
-  base: "/escale-app/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
