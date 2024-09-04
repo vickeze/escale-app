@@ -24,6 +24,8 @@ jobs:
 
       - name: Build project
         run: pnpm run build
+        with:
+          version: 9
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v2
